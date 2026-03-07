@@ -2,7 +2,7 @@ import random
 import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-bot = telebot.TeleBot('7800470795:AAGAKL5gVgoXuKT-VE6oFxNcvsgAxRaSakw')
+bot = telebot.TeleBot('ВАШ АЙДИ ОТ БОТА')
 
 # Хранилище состояний пользователей
 user_data = {}
@@ -191,3 +191,4 @@ def handle_text(message):
 if __name__ == "__main__":
     print("Бот запущен!")
     bot.polling(none_stop=True)
+
